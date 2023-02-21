@@ -1,0 +1,66 @@
+.treemap-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.treemap-wrapper * {
+  box-sizing: border-box;
+}
+
+.treemap-ctrl {
+  height: 7.5%;
+  max-height: 7.5%;
+  padding: 0.25rem;
+  display: flex;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.treemap-container {
+  position: relative;
+  flex: 1;
+  font-family: sans-serif;
+}
+
+.leaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  white-space: normal;
+  background-color: gray;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.leaf-label {
+  overflow: hidden;
+  white-space: normal;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.leaf-total {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.leaf-pct {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.7em;
+}
+
+.leaf-name {
+  font-size: 0.6em;
+}
+
+.leaf-label span {
+  display: block;
+}
