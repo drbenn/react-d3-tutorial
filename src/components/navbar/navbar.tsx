@@ -11,7 +11,7 @@ export function Navbar() {
             <li><NavLink to="">Info</NavLink></li>
             {/* <li><NavLink to="demo1">Demo 1</NavLink></li> */}
             <li><NavLink to="one">Basic Bar/UseRef</NavLink></li>
-            <li><NavLink to="two">Two</NavLink></li>
+            <li><NavLink to="two">Bar Graph Demo</NavLink></li>
 
           </ul>
         </div>
