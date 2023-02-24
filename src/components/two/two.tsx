@@ -23,14 +23,11 @@ export function Two() {
           .attr("x", function(data, i) {
             return (i * (w / dataset.length));
           })
-          .attr("y", function(data) { return h - ( data * 2.5 )}) // adjusts orientation of bars
+          .attr("y", function(data) { return h - ( data * 2.5 )}) // adjusts orientation of bars to accomodate height multiplier of 2.5
           .attr("width", (w / dataset.length - padding))
           .attr("height", function(data) { 
-            return (data * 2.5) 
+            return (data * 2.5) // height multiplier of 2.5
           })
-
-
-
   },[])
 
 

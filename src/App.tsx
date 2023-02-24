@@ -6,6 +6,7 @@ import { Home } from './components/home/home'
 import { One } from './components/one/one'
 import { Two } from './components/two/two'
 import { Demo1 } from './components/demo-1/demo-1'
+import { Three } from './components/three/three'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           {/* <Route path="/demo1" element={<Demo1 />} /> */}
           <Route path="/one" element={<One />} />
           <Route path="/two" element={<Two />} />
+          <Route path="/three" element={<Three />} />
         </Routes>
       </div>
     </>
