@@ -28,11 +28,13 @@ ul {
   margin: 0;
   padding: 0 0 1rem 0;
   overflow: hidden;
+  line-height: 40px;
 }
 
 li {
   display: inline;
   float: center;
+
 }
 
 li a {
@@ -42,6 +44,7 @@ li a {
   text-decoration: none;
   background: linear-gradient(90deg, trasparent 0%, trasparent 100%);
   transition: all 150ms ease-in;
+
 }
 
 li a:hover {
